@@ -1,5 +1,5 @@
 [package]
-name = "gitolith-bin"
+name = "gitolith-cli"
 version = "0.1.0"
 description = ""
 authors = ["gitolith contributors <gitolith@protonmail.com>"]
