@@ -13,3 +13,4 @@ categories = []
 edition = "2018"
 
 [dependencies]
+gitolith-core = { path = "../gitolith-core", features = ["hyper-http"] }

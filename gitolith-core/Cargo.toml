@@ -12,4 +12,9 @@ keywords = []
 categories = []
 edition = "2018"
 
+[features]
+hyper-http = ["hyper"]
+
 [dependencies]
+thiserror = "1.0.20"
+hyper = { version = "0.13.8", optional = true }
