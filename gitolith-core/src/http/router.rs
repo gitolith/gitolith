@@ -6,7 +6,7 @@ use hyper::{
     Method,
 };
 use log::debug;
-use super::Result;
+use crate::error::Result;
 use super::handlers::*;
 
 pub async fn router(request: Request<Body>) -> Result<Response<Body>> {

@@ -5,7 +5,7 @@ use hyper::{
     Response,
 };
 use log::debug;
-use super::Result;
+use crate::error::Result;
 
 pub async fn hello_world(request: Request<Body>) -> Result<Response<Body>> {
     let data = r#"{"message": "Hello Universe" }"#;
