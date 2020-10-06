@@ -1,3 +1,4 @@
+pub mod http;
 pub mod error;
 
 #[cfg(test)]
