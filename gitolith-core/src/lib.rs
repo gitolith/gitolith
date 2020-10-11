@@ -1,5 +1,6 @@
 pub mod http;
 pub mod error;
+pub mod git;
 
 #[cfg(test)]
 mod tests {
